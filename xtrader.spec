@@ -1,12 +1,12 @@
 Summary:	XTrader - a technical stock analysis program
 Summary(pl):	Xtrader - program do analizy technicznej gie³dy
 Name:		xtrader
-Version:	0.99.8
+Version:	0.99.9
 Release:	0.1
 License:	QPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/xtrader/%{name}-%{version}.tar.gz
-# Source0-md5:	b22290959de0cead6e63f96d958b5904
+# Source0-md5:	c15cb947194a6c405b3ef5d2fe916793
 Source1:	%{name}.desktop
 Patch0:		%{name}-makefile.patch
 URL:		http://xtrader.sourceforge.net/

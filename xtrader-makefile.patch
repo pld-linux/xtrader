@@ -1,0 +1,20 @@
+--- xtrader/Makefile.linux.orig	2004-04-21 22:46:39.700866144 +0200
++++ xtrader/Makefile.linux	2004-04-21 22:54:27.835698832 +0200
+@@ -1,12 +1,12 @@
+ COMP=			g++
+-IFLAGS=			-I../util -Isrc -I/usr/local/include
+-CFLAGS=			-march=i586 -O3 -Wall -Wno-format-y2k
+-LFLAGS=			-L/usr/local/lib -lfltk -lptypes -L/usr/X11R6/lib -lXpm -lX11 -ldl -lpthread -lXft
+-LFLAGS2=		-L/usr/local/lib -lfltk_ -lptypes -L/usr/X11R6/lib -lXpm -lX11 -ldl -lpthread
++IFLAGS=			-I../util -Isrc -I/usr/include/ptypes
++CFLAGS=			$(OPT) 
++LFLAGS=			-L/usr/lib -lfltk -lptypes -L/usr/X11R6/lib -lXpm -lX11 -ldl -lpthread -lXft
++LFLAGS2=		-L/usr/lib -lfltk_ -lptypes -L/usr/X11R6/lib -lXpm -lX11 -ldl -lpthread
+ XTRADER=		xtrader
+ XTRADER2=		xtrader.static
+ 
+-all:	$(XTRADER) $(XTRADER2)
++all:	$(XTRADER) 
+ 
+ XTRADER_OBJ=../util/MH.o ../util/MHChart.o ../util/MHCSVFile.o \
+ 		../util/MHDate.o ../util/MHDateChart.o ../util/MHDC.o \

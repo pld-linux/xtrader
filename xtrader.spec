@@ -37,7 +37,7 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_desktopdir},%{_pixmapsdir}}
 
 install xtrader $RPM_BUILD_ROOT%{_bindir}
-install xtrader.ico $RPM_BUILD_ROOT%{_pixmapsdir}
+install xtrader_32x32.png $RPM_BUILD_ROOT%{_pixmapsdir}/xtrader.png
 
 install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 

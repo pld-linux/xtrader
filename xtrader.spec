@@ -7,7 +7,7 @@ License:	QPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/xtrader/%{name}-%{version}.tar.gz
 # Source0-md5:	b22290959de0cead6e63f96d958b5904
-#Source1:	%{name}.desktop
+Source1:	%{name}.desktop
 Patch0:		%{name}-makefile.patch
 URL:		http://xtrader.sourceforge.net/
 BuildRequires:	fltk-devel 
@@ -39,7 +39,7 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_desktopdir},%{_pixmapsdir}}
 install xtrader $RPM_BUILD_ROOT%{_bindir}
 install xtrader.ico $RPM_BUILD_ROOT%{_pixmapsdir}
 
-#install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -47,5 +47,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
-#%%{_desktopdir}/*
+%{_desktopdir}/*
 %{_pixmapsdir}/*

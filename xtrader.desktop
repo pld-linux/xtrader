@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=XTrader
+Comment=Technical stock analysis program
+Comment[pl]=Program do analizy technicznej giełdy
+Exec=xtrader
+Icon=xtrader.ico
+Terminal=false
+Type=Application
+Encoding=UTF-8
+# vi: encoding=utf-8
+

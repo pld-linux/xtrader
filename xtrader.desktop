@@ -3,9 +3,10 @@ Name=XTrader
 Comment=Technical stock analysis program
 Comment[pl]=Program do analizy technicznej giełdy
 Exec=xtrader
-Icon=xtrader.ico
+Icon=xtrader.png
 Terminal=false
 Type=Application
+Categories=Office;Finance;
 Encoding=UTF-8
 # vi: encoding=utf-8
 

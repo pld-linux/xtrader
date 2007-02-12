@@ -1,5 +1,5 @@
 Summary:	XTrader - a technical stock analysis program
-Summary(pl.UTF-8):   Xtrader - program do analizy technicznej giełdy
+Summary(pl.UTF-8):	Xtrader - program do analizy technicznej giełdy
 Name:		xtrader
 Version:	0.99.9
 Release:	0.1

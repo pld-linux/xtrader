@@ -1,5 +1,5 @@
 Summary:	XTrader - a technical stock analysis program
-Summary(pl):	Xtrader - program do analizy technicznej gie³dy
+Summary(pl.UTF-8):   Xtrader - program do analizy technicznej gieÅ‚dy
 Name:		xtrader
 Version:	0.99.9
 Release:	0.1
@@ -19,10 +19,10 @@ XTrader is a technical analysis program for financial instruments.
 There is a simple portfolio module where you can edit transactions,
 create reports and charts.
 
-%description -l pl
-XTrader to program do technicznej analizy instrumentów finansowych.
-Zawiera prosty modu³ portfolio, gdzie mo¿na modyfikowaæ transakcje,
-tworzyæ raporty i wykresy.
+%description -l pl.UTF-8
+XTrader to program do technicznej analizy instrumentÃ³w finansowych.
+Zawiera prosty moduÅ‚ portfolio, gdzie moÅ¼na modyfikowaÄ‡ transakcje,
+tworzyÄ‡ raporty i wykresy.
 
 %prep
 %setup -q -n %{name}
